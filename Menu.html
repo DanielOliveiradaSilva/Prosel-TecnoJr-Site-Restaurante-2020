@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Menu restaurante</title>
+        <!--Link estilo de fonte google-->
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Dancing+Script&display=swap" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </head>
+    <body>    
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        
+        
+        <nav id="nav">
+             <div class="nav-wrapper">
+                <a href="#" class="brand-logo"><img  id="logo" src="img/logo.jpeg"></a>
+                <a href="#" data-activates="menu-mobile" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                   <li><a href="#inicio">Inicio</a></li>
+                   <li><a href="#sobre">Sobre nós</a></li>
+                   <li><a href="#contato">Contato</a></li>
+                   <li><a href="#cardapio">Cardápio</a></li>
+                   </ul>
+                   <ul class="side-nav" id="menu-mobile">
+                       <li><a href="#inicio">Inicio</a></li>
+                       <li><a href="#sobre">Sobre nós</a></li>
+                       <li><a href="contato">Contato</a></li>
+                       <li><a href="#cardapio">Cardápio</a></li>
+                   </ul>
+            </div>
+        </nav>
+        <div class="divider" nome="ancora" id="inicio"></div>
+        
+        <div class="section" style="background-image: url('capa.png'); " id="capa">
+            <nav id="NavTop">
+                <ul>
+                    <li class="right" ><a  href="#cardapio">Cardápio</a></li>
+                    <li class="right"><a href="#sobre">Sobre nós</a></li>
+                    <li class="right"><a href="#contato">Contato</a></li>
+                    <li class="right"><a href="#inicio">Início</a></li>
+                  </ul>
+            </nav>
+            <div id="logo2">
+                <img src="img/logo.jpeg">
+            </div>
+            <div id="text1">
+                <h1> Menu Restaurante</h1>
+                <h4>Ingredientes frescos e culinária simples e deliciosa!</h4>
+            </div>
+        </div>
+        <div style="padding: 38px;" id="sobre"></div>
+        
+        <div  style="padding:0; height: 680px;" id="boxb">
+            <div id="box2">
+                <h2 ><b>Temperado Com perfeição</b></h2>
+               <p >Os nossos produtos são 100% naturais, os ingledientes 
+                são preparados com amor e carinho especialmente para você, 
+                sinta o verdadeiro sabor da comida tradicional.
+                </p>
+                <p id="alinhar" >Venha conhecer nossas delicias!!!</p>
+                <img src="img/figura1.png" style="width: 80%; border-radius: 0px;">
+            </div>
+        </div>
+        <div class="divider"></div>
+        
+        <div class="section" style="padding:0;">
+            <div id="cardapio">
+                <img src="img/figura2.png" style="width: 24%;">
+                <div id="box3">
+                  <img src="img/menu.png">
+                  <div id="Atext">
+                    <h1 id="text3">ESPECIALIDADES DIÁRIAS</h1>
+                    <h1 id="tex4">Self-Service</h1>
+                  </div>
+                  
+                  <p >Porções adcionais:</p>
+                  <table border="1" >
+                      <tr>
+                          <td ><b>File de Peixe</b></td>
+                          <td class="right">R$6,00</td>
+                      </tr>
+                      <tr>
+                          <td><b>File de Carne</b></td>
+                        
+                          <td class="right">R$6,00</td>
+                      </tr>
+                      <tr>
+                          <td><b>File de Flango</b></td>
+                        
+                          <td class="right">R$4,00</td>
+                      </tr>
+                      <tr>
+                        <td><b>Salada</b></td>
+                      
+                        <td class="right">R$3,50</td>
+                    </tr>
+                    <tr>
+                      <td><b>Arroz Branco</b></td>
+                    
+                      <td class="right">R$5,00</td>
+                  </tr>
+                  </table>  
+                  <div class="carousel" >
+                    <p style="">Pratos feitos:</p>
+                    <a class="carousel-item" href="#one!"><img class="border" src="img/salada.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img class="border" src="img/carne.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img class="border" src="img/peixe.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img  class="border" src="img/feijão.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img class="border" src="img/arroz.jpg"></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div style="background-image: url('li.jpg'); background-size: 100% 100%;background-repeat: no-repeat;" id="box4">
+            <div>
+              <p><b>Pratos feitos por apenas
+                R$ 10,00
+                Aproveite essa oportinidade, além
+                do prato feito você ainda pode
+                receber nossas delicias na sua casa.</b>
+              </p>
+              <p><b>Veja nossas opções e faça agora seu pedido</b></p>
+              <p><b>Legue 0800-6355</b></p>
+            </div>
+        </div>
+          <div id="map" ></div>
+        
+
+        <footer class="page-footer" id="contato" style="background-color: orange !important; padding-top: 0px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12" style="margin-left: -10%;" id="coloso1">
+                        <h5 class="white-text" style="text-align: center;margin-top: 9%;" >Localização</h5>
+                        <p class="grey-text text-lighten-4" style="text-align: center;    margin-top: 7%;">Itabuna Ba, Bairro de Fatima, nº44, Cep: 4560-000.</p>
+                    </div>
+                    <div class="col l6 s12" style="width: 40%;height: 186px;margin-left: -5%; ">
+                        <h5  class="white-text" style="text-align: center;    margin-top: 10%;" id="coloso2" >Siga-nos:</h5>
+                        <ul id="social">
+                            <li>
+                            <a href="https://www.facebook.com/"><img src="img/face.png" ></a>
+                            </li>
+                            <li>
+                            <a href="#!"><img src="img/google.png"></a>
+                            </li>
+                            <li>
+                            <a href="https://twitter.com/explore"><img src="img/twiter.png"></a>
+                            </li>
+                            <li>
+                            <a href="https://www.instagram.com/"><img src="img/instaran.png" ></a>
+                            </li>
+                            <li>
+                            <a href="https://br.linkedin.com/"><img src="img/in.png" ></a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                <div class="col l4 offset-l2 s12" id="inform"> 
+                    <h5 class="white-text" style="margin-top: 12%;">Precisa de ajuda?</h5>
+                    <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!"><span class="material-icons" style="margin-top: 0%; float: left;">chat_bubble_outline</span>Chate online</span></a></li>
+                    <li style="margin-top: 2%; "><a class="grey-text text-lighten-3" href="#!"><span class="material-icons" style="margin-top: -1%;float: left;margin-left: 0%;margin-top: 0%;">mail</span>E-mail</a></li>
+                    <li style="margin-top: 2%;"><a class="grey-text text-lighten-3" href="#!"><span class="material-icons" style="margin-top: 0%; float: left;">call</span>Fale conosco</a></li>
+                    <li style="margin-left: 10%;">0800-1563</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            
+            <div class="footer-copyright">
+                <div class="container" id="sumico">
+                © 2020 Copyright Text
+                </div>
+            </div>
+        </footer> 
+        <a href="#top" class="glyphicon glyphicon-chevron-up"><img style="width: 4%;position: fixed;margin-left: -2%;margin-top: -1%;" src="img/cima.png"></a>
+        <script> 
+
+            $(function(){
+                $(".button-collapse").sideNav();
+            });
+            
+        </script>
+        <script>     
+            (function () {
+          
+            var menu = document.getElementById('nav'); // colocar em cache
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 0) menu.classList.add('nav'); // > 0 ou outro valor desejado
+                else menu.classList.remove('nav');
+                
+          
+            });
+          })();
+        </script>
+        <script>     
+            (function () {
+          
+            var menu = document.getElementById('NavTop'); // colocar em cache
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 0) menu.classList.add('NavTop'); // > 0 ou outro valor desejado
+                else menu.classList.remove('NavTop');
+                
+          
+            });
+          })();
+        </script>
+        <script>
+            $(document).ready(function(){
+              $('.carousel').carousel();
+            });
+        </script>
+        
+        <script>
+
+            function inicializar() {
+              var coordenadas = {lat: -14.779729, lng: -39.264442};
+        
+              var mapa = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: coordenadas 
+              });
+        
+            var marker = new google.maps.Marker({
+                position: coordenadas,
+                map: mapa,
+                title: 'Meu marcador'
+                });
+             }
+        </script>
+        <script async defer
+           src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhE0V4KPHFnPN3NIG7UdZYHoabWdEMkWc&callback=inicializar">
+        </script>
+        <Script>
+            $(document).ready(function(){
+              $(window).scroll(function(){
+                  if ($(this).scrollTop() > 100) {
+                      $('a[href="#top"]').fadeIn();
+                  } else {
+                      $('a[href="#top"]').fadeOut();
+                  }
+              });
+          
+              $('a[href="#top"]').click(function(){
+                  $('html, body').animate({scrollTop : 0},800);
+                  return false;
+              });
+          });
+          </Script>
+    </body>
+</html>

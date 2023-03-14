@@ -1,0 +1,587 @@
+nav{
+    background-color: orangered !important;
+    height: 58px !important;
+    line-height: 60px !important;
+    position: fixed;
+}
+#capa {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 680px !important;
+}
+nav{
+  display: none ; 
+}
+.nav{
+    display: inherit !important;
+}
+#logo{
+    margin-top: 4px;
+    width: 11%;
+    border-radius: 8px;
+    margin-left: 2%;
+}
+/* Tela 1*/
+#NavTop{
+    display: inherit;
+    background-color: #ffffff00 !important;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px !important;
+    margin-top: 4%;
+    margin-left: -3%;
+
+}
+#NavTop Ul li a{
+    font-size: 1.8rem !important;
+    font-family: 'Carrois Gothic SC';
+}
+#NavTop ul li a:hover{
+    border-bottom:2px solid white !important;
+
+}
+.NavTop{
+    display: none !important;
+}
+#logo2{
+    width: 90%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.section div img{
+    width: 14%;
+    border-radius: 56px;
+}
+#text1 {
+    text-align: center;
+    color: white;
+    font-family: "Dancing Script";
+    margin-top: 18%;
+}
+#text1 h1{
+    font-size: 8rem !important;
+
+}
+#text1 h4{
+    font-size: 4rem;
+    margin-top: 10%;
+}
+/* tela2*/
+#box2{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%
+}
+#box2 h2{
+    font-family: "Dancing Script";
+}
+#box2 p{
+    font-family: "Dancing Script";
+    font-size: 2em;
+    text-align: justify;
+}
+#alinhar{
+    text-align: center !important;
+}
+/* tela3*/
+#box3 {
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    background-color: white;
+    float: left;
+    margin-top: 1%;
+}
+#Atext{
+    margin-left: 0%;
+    text-align: center;
+    float: left;
+    height: 135px !important;
+    margin-top: -100px;
+    width: 100%;
+}
+#cardapio{
+    background-color: orange;
+    text-align: center;
+    height: 1216px;
+
+}
+#cardapio img{
+    border-radius: 0px !important;
+}
+#box3 img{
+    float: left;
+    width: 11%;
+    margin-left: 39px;
+    margin-top: 10px;
+    border-radius: 0px !important;
+}
+#box3 h1{
+    font-size: 2.2rem !important;
+    width: 100%;
+    font-family: cursive;
+    text-align: center;
+}
+.border{
+    border-radius: 70px !important;
+}
+.carousel .carousel-item>img {
+    width: 108% !important;
+    border-radius: 80px !important;
+}
+#box3 table{
+    width: 80%;
+    margin-left: 10%;
+}
+#box3 p{
+    font-family: cursive;
+    margin-left: 10%;
+    float: left;
+    font-size: 30px;
+}
+#box3 div{
+    height: 348px;
+}
+#box3 div p{
+    font-family: cursive;
+    margin-left: 10%;
+    float: left;
+    font-size: 30px;  
+}
+.divider {
+    height: 0px !important;
+}
+/* tela 4*/
+#box4{
+    height: 680px;
+}
+#box4 div{
+    width: 81%; 
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#box4 div p {
+    font-family: cursive;
+    font-size: 40px;
+     color: black;
+    text-align: center;
+
+}
+/* 5º Tela Mapa*/
+#map{
+    width: 100%;
+    
+    height: 646px;
+}
+
+/* floater*/
+#inform{
+    margin-top: -20%;
+    margin-left: 82%;
+}
+#social{
+    text-align: center;
+    margin-top: 10%;
+}
+#social li{
+    display: inline;
+    padding: 5px;
+}
+#social li a img{
+    width: 10% !important;
+}
+a[href="#top"]{
+    padding:10px;
+    position:fixed;
+    top: 90%;
+    right:40px;
+    display:none;
+    font-size: 30px;
+}
+a[href="#top"]:hover{
+    text-decoration:none;
+}
+@media only screen and (max-width: 1440px) {
+    #text1 h4{
+        font-size: 4rem;
+        margin-top: 6% !important;
+    }
+    #text1 {
+        margin-top: 18% !important;
+    }
+    #text1 h1{
+        font-size: 9rem !important;
+    
+    }
+
+ 
+}
+@media only screen and (max-width: 1281px) {
+    #inform{
+        width: 27% !important;
+    }
+
+    #text1 h4{
+        font-size: 4rem !important;
+        margin-top: 6% !important;
+    }
+    #text1 {
+        margin-top: 19% !important;
+    }
+    #text1 h1{
+        font-size: 9rem !important;
+    
+    }
+   
+ 
+}
+@media only screen and (max-width: 1100px) {
+    #logo{
+        display: none !important;
+    }
+    #inform{
+        margin-top: -23% !important;
+    }
+    #box4 {
+        height: 609px !important;
+    }
+    #box4 div p {
+     font-size: 38px !important;
+    }
+    #map {
+        height: 587px !important;
+    }
+    #capa{
+        height: 514px !important;
+    }
+    #text1 h1 { 
+       font-size: 6.4em !important; 
+    }
+    #text1 h4{
+     font-size: 3.2rem !important;
+
+    }
+    #NavTop Ul li a{
+        font-size: 1.4rem !important;
+    }
+    #Atext {
+        margin-left: 8% !important;
+    }
+ 
+ }
+ @media only screen and (max-width: 900px) {
+    #Atext {
+        margin-left: 3% !important;
+        margin-top: -72px !important;
+    }
+    #text1 {
+        margin-top: 18% !important;
+    }
+    #capa{
+        height: 440px !important;
+    }
+    #text1 h1 { 
+        font-size: 6.4em !important; 
+    }
+    #text1 h4{
+        font-size: 2.9rem !important;
+
+    }
+    #NavTop Ul li a{
+        font-size: 1rem !important;
+    }
+    .side-nav a {
+        font-size: 6px !important;
+        font-weight: 500;
+        height: 16px !important;
+        line-height: 17px !important;
+    }
+    .side-nav {
+        padding-bottom: 5px !important;
+        height: 70px !important;
+        width: 70px !important;
+    } 
+    nav{
+        display: inline !important;
+        position: relative;
+    }
+    #NavTop{
+        display: none !important;
+    }
+    #logo{
+        display: none !important;
+    } 
+    #logo2{
+        display: none !important;
+    }
+    #boxb{
+        height: 585px !important;
+    }
+    #box2 {
+        text-align: center;
+        width: 75% !important;
+        margin-left: 14% !important;
+    }
+    #cardapio {
+        height: 1066px !important;
+    }
+    #box4 {
+        height: 534px !important;
+    }
+    #box4 div {
+        margin-top: 9% !important;
+    }
+    #box4 div p {
+        font-size: 27px !important;
+    }
+    #map {
+        height: 426px !important;
+    }
+    .row .col.s12 {
+        width: 41% !important;
+        margin-left: -6% !important;
+        padding-left: 6%;
+
+    }
+    #inform {
+        margin-top: 0 !important;
+        width: 34% !important;
+    }
+
+ }
+ @media only screen and (max-width: 600px) {
+    
+    .material-icons {
+        display: none;
+     }
+    #box4 div {
+        margin-top: 5% !important;
+    }
+    #box4 {
+        height: 406px !important;
+    }
+    #box4 div p {
+        font-size: 24px !important;
+    }
+    #text1 {
+       margin-top: 18% !important
+    }
+    #text1 h1 {
+        font-size: 4.4em !important;
+    }
+    #text1 h4 {
+        font-size: 1.9rem !important;
+    }
+    #capa {
+        height: 293px !important;
+    }
+    #box2 {
+        text-align: center;
+        width: 71% !important;
+        margin-left: 14% !important;
+    }
+    #box2 h2{
+        font-size: 2.56rem !important;
+    }
+    #boxb{
+        height: 524px !important;
+    }
+    .side-nav {
+        padding-bottom: 5px !important;
+        height: 139px !important;
+        width: 106px !important;
+    }
+    .side-nav a {
+        font-size: 10px !important;
+        font-weight: 500;
+        height: 30px !important;
+        line-height: 31px !important;
+    }
+    #box3 h1 {
+        font-size: 1.2rem !important;
+    }
+    #Atext {
+        margin-left: 3% !important;
+        margin-top: -49px !important;
+        height: 84px !important;
+    }
+    #box3{
+        height: 500px !important;
+    }
+    #cardapio{
+        height: 680px !important;
+    }
+    #box3 p {
+        font-family: cursive;
+        margin-left: 11% !important;
+        float: left;
+        font-size: 17px !important;
+        margin-top: 12% !important;
+    }
+    .carousel{
+        display: none !important;
+    }
+ }
+ @media only screen and (max-width: 360px) {
+    #cardapio{
+        height: 431px !important;
+    }
+    #box2 h2 b{
+        font-size: 20px !important;
+    }
+    #boxb{
+        height: 282px !important;
+    }
+    #box3 {
+        width: 89% !important;
+        margin-left: 5% !important;
+        height: 342px !important;
+    }
+    #Atext{
+        margin-left:1% !important;
+        text-align: center;
+        float: left;
+        margin-top: -49px !important;
+        height: 58px !important;
+    }
+    #tex4{
+        margin-top: -8px !important;
+    }
+    #Atext h1{
+        font-size: 10px !important;
+    }
+    .carousel{
+        display: none !important;
+    }
+   
+    #box3 p{
+        font-size: 10px !important;
+        margin-left: 10% !important;
+    } 
+    b, strong {
+        font-size: 7px !important;
+    } 
+    .right {
+        font-size: 7px !important;
+        margin-top: 9px !important;
+    }
+    td, th {
+        padding: 5px 0px !important;
+    }
+    #box3 img {
+        margin-left: 10% !important;
+    }
+    .side-nav a {
+        font-size: 6px !important;
+        font-weight: 500;
+        height: 16px !important;
+        line-height: 17px !important;
+    }
+    .side-nav {
+        padding-bottom: 5px !important;
+        height: 70px !important;
+        width: 70px !important;
+    } 
+    #logo{
+        display: none !important;
+    }   
+    #capa{
+        height: 172px !important;
+    }
+    #logo2{
+        display: none;
+    }
+    nav{
+        display: inline !important;
+        position: relative;
+    }
+    #NavTop{
+        display: none !important;
+    }
+    #text1 h4{
+        font-size:  1.2rem !important;
+        margin-top: 6% !important;
+    }
+    #text1 {
+        margin-top: 13% !important;
+    }
+    #text1 h1{
+        font-size: 3rem!important;
+    
+    }
+    #NavTop{
+        margin-top: -2% !important;
+    }
+    #NavTop Ul li a{
+        font-size: 0.5rem !important;
+    }
+    #box2 {
+        text-align: center;
+        width: 74% !important;
+        margin-left: 13% !important;
+    }
+    #box2 h2 {
+        font-family: "Dancing Script";
+        font-size: 1.56rem !important;
+    }
+    #box2 p {
+        font-family: "Dancing Script";
+        font-size: 1em !important;
+        text-align: justify;
+    }
+    #box4 {
+        height: 241px !important;
+    }
+    #box4 div {
+        margin-top: 13% !important;
+        height: 60% !important;
+    }
+    #map {
+        height: 211px !important;
+    }
+    #box4 div p {
+        font-size: 12px !important;
+    }
+    #coloso1 h5{
+        font-size: 0.9rem !important;
+
+    }
+    #coloso1 p{
+        font-size: 0.6rem !important;
+    }
+    #coloso2{
+        font-size: 0.9rem !important;
+    }
+    #social li {
+        display: inline;
+        padding: 2px !important;
+    }
+    #inform h5{
+        font-size: 0.9rem !important;
+    }
+    #inform ul{
+        margin-top: -9% !important;
+    }
+    #inform ul li{
+        font-size: 0.6rem !important;
+        
+    }
+    #inform ul li a{
+        font-size: 0.6rem !important;
+        text-align: center;
+    }
+    .material-icons {
+       display: none;
+    }
+    .row{
+        height: 56px !important;
+    }
+    #sumico{
+        display: none !important;
+    }
+    .row .col.s12 {
+        height: 24px !important;
+    }
+}
